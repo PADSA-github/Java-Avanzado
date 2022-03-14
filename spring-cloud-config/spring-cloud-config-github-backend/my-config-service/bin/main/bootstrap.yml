@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/edgarSTM/spring-cloud.git
+          searchpaths: config-props
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+          default-label: "master"
+
+  application:
+        name: my-config-service
+          
+  security:
+    user:
+      name: root
+      password: s3cr3t

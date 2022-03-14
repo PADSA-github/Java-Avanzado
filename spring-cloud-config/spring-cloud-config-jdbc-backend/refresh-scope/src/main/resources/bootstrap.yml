@@ -1,0 +1,17 @@
+spring:
+ application:
+    name: refresh-scope
+
+#Conección al Config Service
+ cloud:
+    config:
+      name: refresh-scope
+      profile: dev
+      label: latest  
+      uri: http://localhost:8888
+      username: root
+      password: s3cr3t
+#Conección al Admin Service
+ boot:
+  admin:
+   client.url: http://localhost:9999

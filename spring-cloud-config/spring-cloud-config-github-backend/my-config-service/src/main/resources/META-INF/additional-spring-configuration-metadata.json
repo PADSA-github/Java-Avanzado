@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "spring.cloud.application.name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.application.name'"
+  },
+  {
+    "name": "spring.cloud.config.application",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.config.application'"
+  },
+  {
+    "name": "spring.security.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.username'"
+  },
+  {
+    "name": "spring.security.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.password'"
+  },
+  {
+    "name": "spring.cloud.config.server.git.searchpaths",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.config.server.git.searchpaths'"
+  }
+]}
